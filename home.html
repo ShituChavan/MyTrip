@@ -1,0 +1,778 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link href="footer.css" rel="stylesheet" id="bootstrap-css">
+	
+	<!-- AOS CSS -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	
+	<!-- AOS JS -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	
+	<!------ Include the above in your HEAD tag ---------->
+	<link rel="stylesheet" href="footer.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+	<title>HOME PAGE</title>
+<script>
+	function add()
+	{	
+		window.alert("Review Submited");
+	}
+</script>
+	<style>
+	.card-zoom:hover img
+	{
+		transform:scale(0.9);
+	}
+	.btn-primary
+	{
+		background-color: black; /* Green */
+		border: none;
+		color: white;
+		padding: 12px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 10px;
+		margin: 4px 2px;
+		cursor: pointer;
+	}
+		.button1
+		{
+			border-radius: 50%;
+		}
+	
+	.btn-warning
+	{
+		background-color:red;
+		color: white;
+		font-size: 19px;
+		text-align: center;
+		padding: 9px;
+	}
+	
+	.button2
+		{
+			border-radius: 50%;
+			color:blue;
+			float:right;
+			padding:30px;
+		}
+		
+			.button2:hover
+			{ 
+				background-color:grey;
+				color:white;
+				transform:scale(1.1);
+			}
+	</style>
+  </head>
+  <body>
+  
+  <!--Bottom to Top tag use-->
+	<a name="Top-button">
+
+	<div class="container-fluid">
+		<div class="row">
+				<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+  <div class="col-sm-12">
+    <a class="navbar-brand" href="coffee.html"><i>MyTrip</i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutUs.html">About us</a>
+        </li>
+		<li class="nav-item">     
+		  <a class="nav-link" href="contactus.html">Contact Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Options
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Activites</a></li>
+            <li><a class="dropdown-item" href="#">GiftCards</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Trip Ideas</a></li>
+          </ul>
+        </li>
+      </ul>
+	  
+		<form class="col-md-5 d-flex">
+			<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+			<button class="btn btn-outline-info me-5" type="submit">Search</button>
+		</form>
+		<div class="col-md-2">
+			<button type="button" class="btn btn-outline-primary me-2"><a href="loginform.html">Login</a></button>
+			<button type="button" class="btn btn-info"><a href="newreg.html">Sign up</a></button>
+		</div>
+			
+      
+    </div>
+  </div>
+  </nav><!--nav close-->
+
+<!--HOME PAGE START HERE-->
+<!--Carsousel start with here-->
+<div class="col-md-12 mt-1">
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="airoplane1.jpg" class="d-block w-100" alt="airoplane" height="600px">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Flaying with Your Dream</h5>
+        <p> “Every takeoff is optional. Every landing is mandatory.”</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="honeymoon.jpg" class="d-block w-100" alt="Couple" height="600px">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Couple Honeymoon Trip</h5>
+        <p>"A honeymoon is a short period of doting between dating and debting."</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="ice mountain.jpg" class="d-block w-100" alt="plane" height="600px">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Mountain Trip</h5>
+        <p>“The great thing about reaching the top of the mountain is realising that there’s space for more than one person. And you’re now in the prime position to help others up.” </p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div><!--carousel col close-->
+
+
+<!-- FEATURED PRODUCT
+    ================================================== -->
+    <section class="pt-5 pb-9 py-md-11 bg-white">
+        <div class="card">
+            <div class="text-center mb-5 mb-md-8">
+                <h1 class="mb-1">My Packages</h1>
+                <p class="font-size-lg text-capitalize">Best-selling Holiday Destinations</p>
+            </div>
+
+            <div class="row row-cols-md-2 row-cols-xl-3 mb-2">
+                <div class="col-md pb-4 pb-md-7">
+                    <!-- Card -->
+                    <div class="card border rounded-xl shadow p-2 lift sk-fade">
+                        <!-- Image -->
+                        <div class="card-zoom position-relative" data-aos="zoom-in-up">
+                            <div class="badge-float sk-fade-top top-0 right-0 mt-1 me-4">
+                            </div>
+
+                            <a href="./course-single-v5.html" class="card-img sk-thumbnail d-block">
+                             <img class="rounded shadow-light-lg" src="../travling/package img/kashmir.jpg" alt="Kashmir image" height="300px" width="380px">
+                            </a>
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="card-footer mb-1">
+
+                            <!-- Preheading -->
+							<span style="color:black">Book Your Kashmir Holidays Now</span>
+
+                            <!-- Heading -->
+                            <div class="position-relative">
+                               <span style="color:purple"><h4><u>3N Shrinagar Houseboat|2N Gulmarg</u></h4></span>
+                                <div class="row mx-n2 align-items-end">
+                                    <div class="col px-2">
+                                        <ul class="nav mx-n3">
+                                            <li class="nav-item px-3">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="me-2 d-flex icon-uxs text-secondary">
+                                                        <!-- Icon -->
+                                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M17.1947 7.06802L14.6315 7.9985C14.2476 7.31186 13.712 6.71921 13.0544 6.25992C12.8525 6.11877 12.6421 5.99365 12.4252 5.88303C13.0586 5.25955 13.452 4.39255 13.452 3.43521C13.452 1.54098 11.9124 -1.90735e-06 10.0197 -1.90735e-06C8.12714 -1.90735e-06 6.58738 1.54098 6.58738 3.43521C6.58738 4.39255 6.98075 5.25955 7.61414 5.88303C7.39731 5.99365 7.1869 6.11877 6.98502 6.25992C6.32752 6.71921 5.79178 7.31186 5.40787 7.9985L2.8447 7.06802C2.33612 6.88339 1.79688 7.26044 1.79688 7.80243V16.5178C1.79688 16.8465 2.00256 17.14 2.31155 17.2522L9.75312 19.9536C9.93073 20.018 10.1227 20.0128 10.2863 19.9536L17.7278 17.2522C18.0368 17.14 18.2425 16.8465 18.2425 16.5178V7.80243C18.2425 7.26135 17.704 6.88309 17.1947 7.06802ZM10.0197 1.5625C11.0507 1.5625 11.8895 2.40265 11.8895 3.43521C11.8895 4.46777 11.0507 5.30792 10.0197 5.30792C8.98866 5.30792 8.14988 4.46777 8.14988 3.43521C8.14988 2.40265 8.98866 1.5625 10.0197 1.5625ZM9.23844 18.1044L3.35938 15.9703V8.91724L9.23844 11.0513V18.1044ZM10.0197 9.67255L6.90644 8.54248C7.58164 7.51892 8.75184 6.87042 10.0197 6.87042C11.2875 6.87042 12.4577 7.51892 13.1329 8.54248L10.0197 9.67255ZM16.68 15.9703L10.8009 18.1044V11.0513L16.68 8.91724V15.9703Z" fill="currentColor"/>
+                                                        </svg>
+
+                                                    </div>
+                                                    <div class="font-size-sm btn btn-primary button1">5N/6D</div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-auto px-2 text-right">
+                                        <del class="font-size-sm">&#8377 37,368</del>
+                                        <ins class="h4 mb-0 d-block mb-lg-n1">&#8377 29,564</ins>
+                                    </div>
+									
+									 <div class="card-body btn btn-warning mt-2"><a href="bookpage.html">Book Now</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--=========1st package card close here===========-->
+				
+                <div class="col-md pb-4 pb-md-7">
+                    <!-- Card -->
+                    <div class="card border rounded-xl shadow p-2 lift sk-fade">
+                        <!-- Image -->
+                        <div class="card-zoom position-relative" data-aos="zoom-in-up">
+                            <a href="./course-single-v5.html" class="card-img sk-thumbnail d-block">
+                              <img class="rounded shadow-light-lg" src="../travling/package img/himachal.jpg" alt="..." height="300px" width="380px">
+                            </a>
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="card-footer mb-1">
+
+                            <!-- Preheading -->
+                            <span style="color:black">Himachal Pradesh</span>
+
+                            <!-- Heading -->
+                            <div class="position-relative">
+                               <span style="color:purple"><h4><u>2N shimla|2N Kulu-Manali|1N Shimla</u></h4></span>
+                                <div class="row mx-n2 align-items-end">
+                                    <div class="col px-2">
+                                        <ul class="nav mx-n3">
+                                            <li class="nav-item px-3">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="me-2 d-flex icon-uxs text-secondary">
+                                                        <!-- Icon -->
+                                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M17.1947 7.06802L14.6315 7.9985C14.2476 7.31186 13.712 6.71921 13.0544 6.25992C12.8525 6.11877 12.6421 5.99365 12.4252 5.88303C13.0586 5.25955 13.452 4.39255 13.452 3.43521C13.452 1.54098 11.9124 -1.90735e-06 10.0197 -1.90735e-06C8.12714 -1.90735e-06 6.58738 1.54098 6.58738 3.43521C6.58738 4.39255 6.98075 5.25955 7.61414 5.88303C7.39731 5.99365 7.1869 6.11877 6.98502 6.25992C6.32752 6.71921 5.79178 7.31186 5.40787 7.9985L2.8447 7.06802C2.33612 6.88339 1.79688 7.26044 1.79688 7.80243V16.5178C1.79688 16.8465 2.00256 17.14 2.31155 17.2522L9.75312 19.9536C9.93073 20.018 10.1227 20.0128 10.2863 19.9536L17.7278 17.2522C18.0368 17.14 18.2425 16.8465 18.2425 16.5178V7.80243C18.2425 7.26135 17.704 6.88309 17.1947 7.06802ZM10.0197 1.5625C11.0507 1.5625 11.8895 2.40265 11.8895 3.43521C11.8895 4.46777 11.0507 5.30792 10.0197 5.30792C8.98866 5.30792 8.14988 4.46777 8.14988 3.43521C8.14988 2.40265 8.98866 1.5625 10.0197 1.5625ZM9.23844 18.1044L3.35938 15.9703V8.91724L9.23844 11.0513V18.1044ZM10.0197 9.67255L6.90644 8.54248C7.58164 7.51892 8.75184 6.87042 10.0197 6.87042C11.2875 6.87042 12.4577 7.51892 13.1329 8.54248L10.0197 9.67255ZM16.68 15.9703L10.8009 18.1044V11.0513L16.68 8.91724V15.9703Z" fill="currentColor"/>
+                                                        </svg>
+
+                                                    </div>
+                                                    <div class="font-size-sm btn btn-primary button1">5N/6D</div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-auto px-2 text-right">
+                                        <del class="font-size-sm">&#8377 37,599</del>
+                                        <ins class="h4 mb-0 d-block mb-lg-n1">&#8377 21,599</ins>
+                                    </div>
+									<div class="card-body btn btn-warning mt-2"><a href="bookpage.html">Book Now</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--=========2nd package card close here===========-->
+				
+                <div class="col-md pb-4 pb-md-7">
+                    <!-- Card -->
+                    <div class="card border rounded-xl shadow p-2 lift sk-fade">
+                        <!-- Image -->
+                        <div class="card-zoom position-relative" data-aos="zoom-in-up">
+                            <a href="./course-single-v5.html" class="card-img sk-thumbnail d-block">
+                                <img class="rounded shadow-light-lg" src="../travling/package img/kerala.jpg" alt="kerala img" height="300px" width="380px">
+                            </a>
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="card-footer mb-1">
+
+                            <!-- Preheading -->
+                          <span style="color:black">Kerala Trip</span>
+
+                            <!-- Heading -->
+                            <div class="position-relative">
+                                <span style="color:purple"><h4><u>2N Munnar|1N Thekkady|1N Allepey</u></h4></span>
+                                <div class="row mx-n2 align-items-end">
+                                    <div class="col px-2">
+                                        <ul class="nav mx-n3">
+                                            <li class="nav-item px-3">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="me-2 d-flex icon-uxs text-secondary">
+                                                        <!-- Icon -->
+                                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M17.1947 7.06802L14.6315 7.9985C14.2476 7.31186 13.712 6.71921 13.0544 6.25992C12.8525 6.11877 12.6421 5.99365 12.4252 5.88303C13.0586 5.25955 13.452 4.39255 13.452 3.43521C13.452 1.54098 11.9124 -1.90735e-06 10.0197 -1.90735e-06C8.12714 -1.90735e-06 6.58738 1.54098 6.58738 3.43521C6.58738 4.39255 6.98075 5.25955 7.61414 5.88303C7.39731 5.99365 7.1869 6.11877 6.98502 6.25992C6.32752 6.71921 5.79178 7.31186 5.40787 7.9985L2.8447 7.06802C2.33612 6.88339 1.79688 7.26044 1.79688 7.80243V16.5178C1.79688 16.8465 2.00256 17.14 2.31155 17.2522L9.75312 19.9536C9.93073 20.018 10.1227 20.0128 10.2863 19.9536L17.7278 17.2522C18.0368 17.14 18.2425 16.8465 18.2425 16.5178V7.80243C18.2425 7.26135 17.704 6.88309 17.1947 7.06802ZM10.0197 1.5625C11.0507 1.5625 11.8895 2.40265 11.8895 3.43521C11.8895 4.46777 11.0507 5.30792 10.0197 5.30792C8.98866 5.30792 8.14988 4.46777 8.14988 3.43521C8.14988 2.40265 8.98866 1.5625 10.0197 1.5625ZM9.23844 18.1044L3.35938 15.9703V8.91724L9.23844 11.0513V18.1044ZM10.0197 9.67255L6.90644 8.54248C7.58164 7.51892 8.75184 6.87042 10.0197 6.87042C11.2875 6.87042 12.4577 7.51892 13.1329 8.54248L10.0197 9.67255ZM16.68 15.9703L10.8009 18.1044V11.0513L16.68 8.91724V15.9703Z" fill="currentColor"/>
+                                                        </svg>
+
+                                                    </div>
+                                                    <div class="font-size-sm btn btn-primary button1">4N/5D</div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-auto px-2 text-right">
+                                        <del class="font-size-sm">&#8377 36,404</del>
+                                        <ins class="h4 mb-0 d-block mb-lg-n1">&#8377 27,087</ins>
+                                    </div>
+									<div class="card-body btn btn-warning mt-2"><a href="bookpage.html">Book Now</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--=========3rd package card close here===========-->
+				
+                <div class="col-md pb-4 pb-md-7">
+                    <!-- Card -->
+                    <div class="card border rounded-xl shadow p-2 lift sk-fade">
+                        <!-- Image -->
+                        <div class="card-zoom position-relative" data-aos="zoom-in-up">
+                            <img class="rounded shadow-light-lg" src="../travling/package img/maldives.jpg" alt="Maldives img" height="300px" width="380px">
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="card-footer mb-1">
+
+                            <!-- Preheading -->
+                            <span style="color:black">Maldives Trip</span>
+
+                            <!-- Heading -->
+                            <div class="position-relative">
+                                <span style="color:purple"><h4><u>3N Maldives</u></h4></span>
+                                <div class="row mx-n2 align-items-end">
+                                    <div class="col px-2">
+                                        <ul class="nav mx-n3">
+                                            <li class="nav-item px-3">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="me-2 d-flex icon-uxs text-secondary">
+                                                        <!-- Icon -->
+                                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M17.1947 7.06802L14.6315 7.9985C14.2476 7.31186 13.712 6.71921 13.0544 6.25992C12.8525 6.11877 12.6421 5.99365 12.4252 5.88303C13.0586 5.25955 13.452 4.39255 13.452 3.43521C13.452 1.54098 11.9124 -1.90735e-06 10.0197 -1.90735e-06C8.12714 -1.90735e-06 6.58738 1.54098 6.58738 3.43521C6.58738 4.39255 6.98075 5.25955 7.61414 5.88303C7.39731 5.99365 7.1869 6.11877 6.98502 6.25992C6.32752 6.71921 5.79178 7.31186 5.40787 7.9985L2.8447 7.06802C2.33612 6.88339 1.79688 7.26044 1.79688 7.80243V16.5178C1.79688 16.8465 2.00256 17.14 2.31155 17.2522L9.75312 19.9536C9.93073 20.018 10.1227 20.0128 10.2863 19.9536L17.7278 17.2522C18.0368 17.14 18.2425 16.8465 18.2425 16.5178V7.80243C18.2425 7.26135 17.704 6.88309 17.1947 7.06802ZM10.0197 1.5625C11.0507 1.5625 11.8895 2.40265 11.8895 3.43521C11.8895 4.46777 11.0507 5.30792 10.0197 5.30792C8.98866 5.30792 8.14988 4.46777 8.14988 3.43521C8.14988 2.40265 8.98866 1.5625 10.0197 1.5625ZM9.23844 18.1044L3.35938 15.9703V8.91724L9.23844 11.0513V18.1044ZM10.0197 9.67255L6.90644 8.54248C7.58164 7.51892 8.75184 6.87042 10.0197 6.87042C11.2875 6.87042 12.4577 7.51892 13.1329 8.54248L10.0197 9.67255ZM16.68 15.9703L10.8009 18.1044V11.0513L16.68 8.91724V15.9703Z" fill="currentColor"/>
+                                                        </svg>
+
+                                                    </div>
+                                                    <div class="font-size-sm btn btn-primary button1">3N/4D</div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-auto px-2 text-right">
+                                        <del class="font-size-sm">&#8377 95,600</del>
+                                        <ins class="h4 mb-0 d-block mb-lg-n1">&#8377 69,812</ins>
+                                    </div>
+									<div class="card-body btn btn-warning mt-2">Book Now</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--=========4th package card close here===========-->
+				
+                <div class="col-md pb-4 pb-md-7">
+                    <!-- Card -->
+                    <div class="card border rounded-xl shadow p-2 lift sk-fade">
+                        <!-- Image -->
+                        <div class="card-zoom position-relative" data-aos="zoom-in-up">
+                            <a href="./course-single-v5.html" class="card-img sk-thumbnail d-block">
+                         <img class="rounded shadow-light-lg" src="../travling/package img/ladakh.jpg" alt="Ladakh img" height="300px" width="380px">
+                            </a>
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="card-footer mb-1">
+
+                            <!-- Preheading -->
+                           <span style="color:black">Ladakh Trip</span>
+
+
+                            <!-- Heading -->
+                            <div class="position-relative">
+                                <span style="color:purple"><h4><u>3N Leh|1N pangong</u></h4></span>
+                                <div class="row mx-n2 align-items-end">
+                                    <div class="col px-2">
+                                        <ul class="nav mx-n3">
+                                            <li class="nav-item px-3">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="me-2 d-flex icon-uxs text-secondary">
+                                                        <!-- Icon -->
+                                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M17.1947 7.06802L14.6315 7.9985C14.2476 7.31186 13.712 6.71921 13.0544 6.25992C12.8525 6.11877 12.6421 5.99365 12.4252 5.88303C13.0586 5.25955 13.452 4.39255 13.452 3.43521C13.452 1.54098 11.9124 -1.90735e-06 10.0197 -1.90735e-06C8.12714 -1.90735e-06 6.58738 1.54098 6.58738 3.43521C6.58738 4.39255 6.98075 5.25955 7.61414 5.88303C7.39731 5.99365 7.1869 6.11877 6.98502 6.25992C6.32752 6.71921 5.79178 7.31186 5.40787 7.9985L2.8447 7.06802C2.33612 6.88339 1.79688 7.26044 1.79688 7.80243V16.5178C1.79688 16.8465 2.00256 17.14 2.31155 17.2522L9.75312 19.9536C9.93073 20.018 10.1227 20.0128 10.2863 19.9536L17.7278 17.2522C18.0368 17.14 18.2425 16.8465 18.2425 16.5178V7.80243C18.2425 7.26135 17.704 6.88309 17.1947 7.06802ZM10.0197 1.5625C11.0507 1.5625 11.8895 2.40265 11.8895 3.43521C11.8895 4.46777 11.0507 5.30792 10.0197 5.30792C8.98866 5.30792 8.14988 4.46777 8.14988 3.43521C8.14988 2.40265 8.98866 1.5625 10.0197 1.5625ZM9.23844 18.1044L3.35938 15.9703V8.91724L9.23844 11.0513V18.1044ZM10.0197 9.67255L6.90644 8.54248C7.58164 7.51892 8.75184 6.87042 10.0197 6.87042C11.2875 6.87042 12.4577 7.51892 13.1329 8.54248L10.0197 9.67255ZM16.68 15.9703L10.8009 18.1044V11.0513L16.68 8.91724V15.9703Z" fill="currentColor"/>
+                                                        </svg>
+
+                                                    </div>
+                                                    <div class="font-size-sm btn btn-primary button1">4N/5D</div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-auto px-2 text-right">
+                                        <del class="font-size-sm">&#8377 34,423</del>
+                                        <ins class="h4 mb-0 d-block mb-lg-n1">&#8377 26,793</ins>
+                                    </div>
+									<div class="card-body btn btn-warning mt-2">Book Now</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--=========5th package card close here===========-->
+				
+                <div class="col-md pb-4 pb-md-7">
+                    <!-- Card -->
+                    <div class="card border rounded-xl shadow p-2 lift sk-fade">
+                        <!-- Image -->
+                        <div class="card-zoom position-relative" data-aos="zoom-in-up">
+                            <a href="./course-single-v5.html" class="card-img sk-thumbnail d-block">
+                              <img class="rounded shadow-light-lg" src="../travling/package img/goa.jpg" alt="Goa img" height="300px" width="380px">
+                            </a>
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="card-footer mb-1">
+
+                            <!-- Preheading -->
+                            <span style="color:black">Goa Trip</span>
+
+                            <!-- Heading -->
+                            <div class="position-relative">
+                               <span style="color:purple"><h4><u>4N Goa</u></h4></span>
+                                <div class="row mx-n2 align-items-end">
+                                    <div class="col px-2">
+                                        <ul class="nav mx-n3">
+                                            <li class="nav-item px-3">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="me-2 d-flex icon-uxs text-secondary">
+                                                        <!-- Icon -->
+                                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M17.1947 7.06802L14.6315 7.9985C14.2476 7.31186 13.712 6.71921 13.0544 6.25992C12.8525 6.11877 12.6421 5.99365 12.4252 5.88303C13.0586 5.25955 13.452 4.39255 13.452 3.43521C13.452 1.54098 11.9124 -1.90735e-06 10.0197 -1.90735e-06C8.12714 -1.90735e-06 6.58738 1.54098 6.58738 3.43521C6.58738 4.39255 6.98075 5.25955 7.61414 5.88303C7.39731 5.99365 7.1869 6.11877 6.98502 6.25992C6.32752 6.71921 5.79178 7.31186 5.40787 7.9985L2.8447 7.06802C2.33612 6.88339 1.79688 7.26044 1.79688 7.80243V16.5178C1.79688 16.8465 2.00256 17.14 2.31155 17.2522L9.75312 19.9536C9.93073 20.018 10.1227 20.0128 10.2863 19.9536L17.7278 17.2522C18.0368 17.14 18.2425 16.8465 18.2425 16.5178V7.80243C18.2425 7.26135 17.704 6.88309 17.1947 7.06802ZM10.0197 1.5625C11.0507 1.5625 11.8895 2.40265 11.8895 3.43521C11.8895 4.46777 11.0507 5.30792 10.0197 5.30792C8.98866 5.30792 8.14988 4.46777 8.14988 3.43521C8.14988 2.40265 8.98866 1.5625 10.0197 1.5625ZM9.23844 18.1044L3.35938 15.9703V8.91724L9.23844 11.0513V18.1044ZM10.0197 9.67255L6.90644 8.54248C7.58164 7.51892 8.75184 6.87042 10.0197 6.87042C11.2875 6.87042 12.4577 7.51892 13.1329 8.54248L10.0197 9.67255ZM16.68 15.9703L10.8009 18.1044V11.0513L16.68 8.91724V15.9703Z" fill="currentColor"/>
+                                                        </svg>
+
+                                                    </div>
+                                                    <div class="font-size-sm btn btn-primary button1">4N/5D</div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-auto px-2 text-right">
+                                        <del class="font-size-sm">&#8377 19,525</del>
+                                        <ins class="h4 mb-0 d-block mb-lg-n1">&#8377 14,580</ins>
+                                    </div>
+									<div class="card-body btn btn-warning mt-2">Book Now</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--=========6th package card close here===========-->
+				
+				<div class="col-md pb-4 pb-md-7">
+                    <!-- Card -->
+                    <div class="card border rounded-xl shadow p-2 lift sk-fade">
+                        <!-- Image -->
+                        <div class="card-zoom position-relative" data-aos="zoom-in-up">
+                            <img class="rounded shadow-light-lg" src="../travling/package img/mountain1.jpg" alt="mountain img" height="300px" width="380px">
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="card-footer mb-1">
+
+                            <!-- Preheading -->
+                            <span style="color:black">Mountain Trip</span>
+
+                            <!-- Heading -->
+                            <div class="position-relative">
+                                <span style="color:purple"><h4><u>3N Pahadi</u></h4></span>
+                                <div class="row mx-n2 align-items-end">
+                                    <div class="col px-2">
+                                        <ul class="nav mx-n3">
+                                            <li class="nav-item px-3">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="me-2 d-flex icon-uxs text-secondary">
+                                                        <!-- Icon -->
+                                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M17.1947 7.06802L14.6315 7.9985C14.2476 7.31186 13.712 6.71921 13.0544 6.25992C12.8525 6.11877 12.6421 5.99365 12.4252 5.88303C13.0586 5.25955 13.452 4.39255 13.452 3.43521C13.452 1.54098 11.9124 -1.90735e-06 10.0197 -1.90735e-06C8.12714 -1.90735e-06 6.58738 1.54098 6.58738 3.43521C6.58738 4.39255 6.98075 5.25955 7.61414 5.88303C7.39731 5.99365 7.1869 6.11877 6.98502 6.25992C6.32752 6.71921 5.79178 7.31186 5.40787 7.9985L2.8447 7.06802C2.33612 6.88339 1.79688 7.26044 1.79688 7.80243V16.5178C1.79688 16.8465 2.00256 17.14 2.31155 17.2522L9.75312 19.9536C9.93073 20.018 10.1227 20.0128 10.2863 19.9536L17.7278 17.2522C18.0368 17.14 18.2425 16.8465 18.2425 16.5178V7.80243C18.2425 7.26135 17.704 6.88309 17.1947 7.06802ZM10.0197 1.5625C11.0507 1.5625 11.8895 2.40265 11.8895 3.43521C11.8895 4.46777 11.0507 5.30792 10.0197 5.30792C8.98866 5.30792 8.14988 4.46777 8.14988 3.43521C8.14988 2.40265 8.98866 1.5625 10.0197 1.5625ZM9.23844 18.1044L3.35938 15.9703V8.91724L9.23844 11.0513V18.1044ZM10.0197 9.67255L6.90644 8.54248C7.58164 7.51892 8.75184 6.87042 10.0197 6.87042C11.2875 6.87042 12.4577 7.51892 13.1329 8.54248L10.0197 9.67255ZM16.68 15.9703L10.8009 18.1044V11.0513L16.68 8.91724V15.9703Z" fill="currentColor"/>
+                                                        </svg>
+
+                                                    </div>
+                                                    <div class="font-size-sm btn btn-primary button1">3N/4D</div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-auto px-2 text-right">
+                                        <del class="font-size-sm">&#8377 95,600</del>
+                                        <ins class="h4 mb-0 d-block mb-lg-n1">&#8377 69,812</ins>
+                                    </div>
+									<div class="card-body btn btn-warning mt-2">Book Now</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--=========7th package card close here===========-->
+				
+                <div class="col-md pb-4 pb-md-7">
+                    <!-- Card -->
+                    <div class="card border rounded-xl shadow p-2 lift sk-fade">
+                        <!-- Image -->
+                        <div class="card-zoom position-relative" data-aos="zoom-in-up">
+                            <a href="./course-single-v5.html" class="card-img sk-thumbnail d-block">
+                         <img class="rounded shadow-light-lg" src="../travling/package img/sea.jpg" alt="See img" height="300px" width="380px">
+                            </a>
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="card-footer mb-1">
+
+                            <!-- Preheading -->
+                           <span style="color:black">Summary Trip</span>
+
+
+                            <!-- Heading -->
+                            <div class="position-relative">
+                                <span style="color:purple"><h4><u>3N Leh|1N pangong</u></h4></span>
+                                <div class="row mx-n2 align-items-end">
+                                    <div class="col px-2">
+                                        <ul class="nav mx-n3">
+                                            <li class="nav-item px-3">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="me-2 d-flex icon-uxs text-secondary">
+                                                        <!-- Icon -->
+                                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M17.1947 7.06802L14.6315 7.9985C14.2476 7.31186 13.712 6.71921 13.0544 6.25992C12.8525 6.11877 12.6421 5.99365 12.4252 5.88303C13.0586 5.25955 13.452 4.39255 13.452 3.43521C13.452 1.54098 11.9124 -1.90735e-06 10.0197 -1.90735e-06C8.12714 -1.90735e-06 6.58738 1.54098 6.58738 3.43521C6.58738 4.39255 6.98075 5.25955 7.61414 5.88303C7.39731 5.99365 7.1869 6.11877 6.98502 6.25992C6.32752 6.71921 5.79178 7.31186 5.40787 7.9985L2.8447 7.06802C2.33612 6.88339 1.79688 7.26044 1.79688 7.80243V16.5178C1.79688 16.8465 2.00256 17.14 2.31155 17.2522L9.75312 19.9536C9.93073 20.018 10.1227 20.0128 10.2863 19.9536L17.7278 17.2522C18.0368 17.14 18.2425 16.8465 18.2425 16.5178V7.80243C18.2425 7.26135 17.704 6.88309 17.1947 7.06802ZM10.0197 1.5625C11.0507 1.5625 11.8895 2.40265 11.8895 3.43521C11.8895 4.46777 11.0507 5.30792 10.0197 5.30792C8.98866 5.30792 8.14988 4.46777 8.14988 3.43521C8.14988 2.40265 8.98866 1.5625 10.0197 1.5625ZM9.23844 18.1044L3.35938 15.9703V8.91724L9.23844 11.0513V18.1044ZM10.0197 9.67255L6.90644 8.54248C7.58164 7.51892 8.75184 6.87042 10.0197 6.87042C11.2875 6.87042 12.4577 7.51892 13.1329 8.54248L10.0197 9.67255ZM16.68 15.9703L10.8009 18.1044V11.0513L16.68 8.91724V15.9703Z" fill="currentColor"/>
+                                                        </svg>
+
+                                                    </div>
+                                                    <div class="font-size-sm btn btn-primary button1">4N/5D</div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-auto px-2 text-right">
+                                        <del class="font-size-sm">&#8377 34,423</del>
+                                        <ins class="h4 mb-0 d-block mb-lg-n1">&#8377 26,793</ins>
+                                    </div>
+									<div class="card-body btn btn-warning mt-2">Book Now</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--=========8th package card close here===========-->
+				
+                <div class="col-md pb-4 pb-md-7">
+                    <!-- Card -->
+                    <div class="card border rounded-xl shadow p-2 lift sk-fade">
+                        <!-- Image -->
+                        <div class="card-zoom position-relative" data-aos="zoom-in-up">
+                            <a href="./course-single-v5.html" class="card-img sk-thumbnail d-block">
+                              <img class="rounded shadow-light-lg" src="../travling/package img/road.jpg" alt="Road img" height="300px" width="380px">
+                            </a>
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="card-footer mb-1">
+
+                            <!-- Preheading -->
+                            <span style="color:black">Road Trip</span>
+
+                            <!-- Heading -->
+                            <div class="position-relative">
+                               <span style="color:purple"><h4><u>1N Car Ride</u></h4></span>
+                                <div class="row mx-n2 align-items-end">
+                                    <div class="col px-2">
+                                        <ul class="nav mx-n3">
+                                            <li class="nav-item px-3">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="me-2 d-flex icon-uxs text-secondary">
+                                                        <!-- Icon -->
+                                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M17.1947 7.06802L14.6315 7.9985C14.2476 7.31186 13.712 6.71921 13.0544 6.25992C12.8525 6.11877 12.6421 5.99365 12.4252 5.88303C13.0586 5.25955 13.452 4.39255 13.452 3.43521C13.452 1.54098 11.9124 -1.90735e-06 10.0197 -1.90735e-06C8.12714 -1.90735e-06 6.58738 1.54098 6.58738 3.43521C6.58738 4.39255 6.98075 5.25955 7.61414 5.88303C7.39731 5.99365 7.1869 6.11877 6.98502 6.25992C6.32752 6.71921 5.79178 7.31186 5.40787 7.9985L2.8447 7.06802C2.33612 6.88339 1.79688 7.26044 1.79688 7.80243V16.5178C1.79688 16.8465 2.00256 17.14 2.31155 17.2522L9.75312 19.9536C9.93073 20.018 10.1227 20.0128 10.2863 19.9536L17.7278 17.2522C18.0368 17.14 18.2425 16.8465 18.2425 16.5178V7.80243C18.2425 7.26135 17.704 6.88309 17.1947 7.06802ZM10.0197 1.5625C11.0507 1.5625 11.8895 2.40265 11.8895 3.43521C11.8895 4.46777 11.0507 5.30792 10.0197 5.30792C8.98866 5.30792 8.14988 4.46777 8.14988 3.43521C8.14988 2.40265 8.98866 1.5625 10.0197 1.5625ZM9.23844 18.1044L3.35938 15.9703V8.91724L9.23844 11.0513V18.1044ZM10.0197 9.67255L6.90644 8.54248C7.58164 7.51892 8.75184 6.87042 10.0197 6.87042C11.2875 6.87042 12.4577 7.51892 13.1329 8.54248L10.0197 9.67255ZM16.68 15.9703L10.8009 18.1044V11.0513L16.68 8.91724V15.9703Z" fill="currentColor"/>
+                                                        </svg>
+
+                                                    </div>
+                                                    <div class="font-size-sm btn btn-primary button1">4N/5D</div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-auto px-2 text-right">
+                                        <del class="font-size-sm">&#8377 19,525</del>
+                                        <ins class="h4 mb-0 d-block mb-lg-n1">&#8377 14,580</ins>
+                                    </div>
+									<div class="card-body btn btn-warning mt-2">Book Now</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--=========9th package card close here===========-->
+            </div>
+        </div>
+    </section><!--Packages Closed Here=======-->
+
+<!-- Review start Here==================================================================
+========================================================================================-->
+<div class=" container text-align col-md-8 col-md-12>
+<h3 class="mb-6"><b>Comment</b></h3>
+                <ul class="list-unstyled pt-2">
+                    <li class="media d-flex">
+                        <div class="avatar avatar-xxl me-3 me-md-6 flex-shrink-0">
+                            <img src="../travling/review img/avatar-1.jpg" alt="man" class="avatar-img rounded-circle">
+                        </div>
+                        <div class="media-body flex-shrink-1">
+                            <div class="d-md-flex align-items-center mb-5">
+                                <div class="me-auto mb-4 mb-md-0">
+                                    <h5 class="mb-0">Oscar Cafeo</h5>
+                                    <p class="font-size-sm font-italic">Beautiful courses</p>
+									
+									 <p class="mb-6 line-height-md">We had a very good experience with MyTrip. We chose paradise resort in maldives.. Agent who assisted us, Loveneet made the process more easy and comfortable. We will recommend without a second thought. Thank you again.It's a great trip.Everything is perfect but we missed national park and kundala falls because it was closed.. and this should be informed to tourist before booking. Those were main places we expected. But overall service was good and especially cab driver Simon is best driver experience </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="media d-flex">
+                        <div class="avatar avatar-xxl me-3 me-md-6 flex-shrink-0">
+                            <img src="../travling/review img/avatar-2.jpg" alt="..." class="avatar-img rounded-circle">
+                        </div>
+                        <div class="media-body flex-shrink-1">
+                            <div class="d-md-flex align-items-center mb-5">
+                                <div class="me-auto mb-4 mb-md-0">
+                                    <h5 class="mb-0">Alex Morgan</h5>
+                                    <p class="font-size-sm font-italic">Beautiful courses</p>
+									
+									<p class="mb-6 line-height-md">The experience was great at hotel but there was electric current in the railing of the garden and the driver was also good but the back seat of the cab was broken due to which it was not much comfortable although it was good Also he switched off the AC on hills during ascending and descending which was very uncomfortable Sitting outside the room in the garden I am sure that your money will not be wasted</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="border shadow rounded p-6 p-md-9" data-aos="zoom-in-left">
+                    <h3 class="mb-2">Add Reviews</h3>
+                    <div class="">What is it like to Course?</div>
+                    <form>
+
+                        <div class="form-group mb-6 mt-3">
+                            <label for="exampleInputTitle1">Name</label>
+                            <input type="text" class="form-control placeholder-1" id="exampleInputTitle1" placeholder="Courses" required/>
+                        </div>
+
+                        <div class="form-group mb-6 mt-2">
+                            <label for="exampleFormControlTextarea1">Review Content</label>
+                            <textarea class="form-control placeholder-1" id="exampleFormControlTextarea1" rows="6" placeholder="Content" required/></textarea>
+                        </div>
+						<center>
+                        <button type="submit" class="btn btn-primary btn-block mw-md-300p mt-2" onclick="add()">SUBMIT REVIEW</button>
+						</center>
+                    </form>
+                </div>
+			</div><!--Review close here-->
+			
+<!--Bottom to Top tag use here===========================-->
+<a href="#top"><div class="btn btn-dark button2">Top</div></a>
+
+<!--footer starts from here
+=============================================================-->
+<footer class="footer mt-5">
+<div class="container bottom_border">
+<div class="row">
+<div class=" col-sm-4 col-md col-sm-4  col-12 col">
+<h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+<!--headin5_amrc-->
+<p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+<p><i class="fa fa-location-arrow"></i> 9878/25 sec 9 rohini 35 </p>
+<p><i class="fa fa-phone"></i>  +91-9999878398  </p>
+<p><i class="fa fa fa-envelope"></i> info@example.com  </p>
+
+
+</div>
+
+
+<div class=" col-sm-4 col-md  col-6 col">
+<h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+<!--headin5_amrc-->
+<ul class="footer_ul_amrc">
+<li><a href="https://www.canva.com/">Logo Design</a></li>
+<li><a href="https://pathedits.com/">Clipping Path</a></li>
+<li><a href="https://toonz.co/">3D Animation</a></li>
+<li><a href="https://www.ebay.com/">Ebay & Amazon</a></li>
+<li><a href="https://www.remove.bg/">Remove Background</a></li>
+<li><a href="https://www.iloveimg.com/">Image Cropping</a></li>
+</ul>
+<!--footer_ul_amrc ends here-->
+</div>
+
+
+<div class=" col-sm-4 col-md  col-6 col">
+<h5 class="headin5_amrc col_white_amrc pt2">Help</h5>
+<!--headin5_amrc-->
+<ul class="footer_ul_amrc">
+<li><a href="https://support.trivago.com/">Lear how to MyTrip Work</a></li>
+<li><a href="https://www.trivago.in/">Terms & Condition</a></li>
+<li><a href="https://www.trivago.in/">Legal Information</a></li>
+<li><a href="https://www.trivago.in/">Privacy Notice</a></li>
+<li><a href="https://www.trivago.in/">Cyber Security</a></li>
+<li><a href="https://support.trivago.com/">Coronavirus (COVID-19) travel advice</a></li>
+</ul>
+<!--footer_ul_amrc ends here-->
+</div>
+
+
+<div class=" col-sm-4 col-md  col-12 col">
+<h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+<!--headin5_amrc ends here-->
+
+<ul class="footer_ul2_amrc">
+<li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="https://www.lipsum.com/">https://www.lipsum.com/</a></p></li>
+<li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="https://www.lipsum.com/">https://www.lipsum.com/</a></p></li>
+<li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="https://www.lipsum.com/">https://www.lipsum.com/</a></p></li>
+</ul>
+<!--footer_ul2_amrc ends here-->
+</div>
+</div>
+</div>
+
+
+<div class="container">
+<ul class="foote_bottom_ul_amrc">
+<li><a href="home.html" style="color:red">Home</a></li>
+<li><a href="aboutUs.html" style="color:red">About</a></li>
+<li><a href="loginform.html" style="color:red">Login</a></li>
+<li><a href="newreg.html" style="color:red">Sign up</a></li>
+<li><a href="http://webenlance.com" style="color:red">Blog</a></li>
+<li><a href="contactus.html" style="color:red">Contact Us</a></li>
+</ul>
+<!--foote_bottom_ul_amrc ends here-->
+<p class="text-center">Copyright @2017 | Designed With by <a href="#">Your Company Name</a></p>
+
+<ul class="social_footer_ul">
+<li><a href="http://facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+<li><a href="http://twitter.com"><i class="fab fa-twitter"></i></a></li>
+<li><a href="http://linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+<li><a href="http://instagram.com"><i class="fab fa-instagram"></i></a></li>
+</ul>
+<!--social_footer_ul ends here-->
+</div>
+
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<!-- Crédit to https://bootsnipp.com/snippets/bxDBA -->
+		</div><!--row close-->
+	</div><!--container close-->
+<script>
+  AOS.init();
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
